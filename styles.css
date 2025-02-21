@@ -34,21 +34,21 @@ body {
 #character.up{
     width: 25px;
     height: 25px;
-    background-image: url(up.png);
+    background-image: url(Up.png);
     position: relative;
     transition: 0.1s linear;
 }
 #character.left{
     width: 25px;
     height: 25px;
-    background-image: url(left.png);
+    background-image: url(Left.png);
     position: relative;
     transition: 0.1s linear;
 }
 #character.down{
     width: 25px;
     height: 25px;
-    background-image: url(down.png);
+    background-image: url(Down.png);
     position: relative;
     transition: 0.1s linear;
 }
