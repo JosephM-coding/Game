@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #70c5ce;
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+#game-container {
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    background-color: #fff;
+    border: 2px solid #000;
+    overflow: hidden;
+    
+}
+.chat{
+    margin: 20px 20px 20px 20px;
+    font-size: 30px;
+    position: relative;
+}
+
+#character {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    /* transition: 0.1s linear; */
+    background-color: white;
+    /* border: 5px solid black */
+
+}
+.hint{
+    left: 0;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    margin: 10px 10px 10px 10px;
+}
+.dotStyle{
+    background-color: whitesmoke;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    /* transition: 0.1s linear; */
+}
